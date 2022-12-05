@@ -1,0 +1,8 @@
+1.########  composer create-project codeigniter4/appstarter project1
+
+##############  create controller #############
+....  php spark make:controller
+ to create model #######
+php spark make:model UserModel
+
+php spark make:controller UserCrud

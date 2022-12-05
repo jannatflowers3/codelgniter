@@ -1,0 +1,61 @@
+CRITICAL - 2022-12-01 06:04:27 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Controllers\Myhome.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Myhome.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Myhome')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Myhome')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Myhome')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Myhome', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 06:21:03 --> Invalid file: contactus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contactus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contactus', [], true)
+ 3 APPPATH\Controllers\Myhome.php(20): view('contactus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Myhome->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Myhome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 06:21:09 --> Invalid file: contactus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contactus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contactus', [], true)
+ 3 APPPATH\Controllers\Myhome.php(20): view('contactus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Myhome->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Myhome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 06:23:32 --> Invalid file: contactus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contactus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contactus', [], true)
+ 3 APPPATH\Controllers\Myhome.php(20): view('contactus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Myhome->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Myhome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 06:44:13 --> Invalid file: contactus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contactus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contactus', [], true)
+ 3 APPPATH\Controllers\Myhome.php(19): view('contactus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Myhome->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Myhome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-01 06:56:13 --> Invalid file: about_us.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about_us.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about_us', [], true)
+ 3 APPPATH\Controllers\Myhome.php(15): view('about_us')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Myhome->about()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Myhome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
